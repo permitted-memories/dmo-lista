@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+	--cg-orange: #dc6601;
+	--cg-green: #228C22;
+}
+
+* {
+	margin: 0;
+	padding: 10;
+	box-sizing: border-box;
+	font-family: 'VT323';
+}
+
+body {
+	display: block;
+	justify-content: center;
+	background-color: floralwhite;
+}
+
+.header {
+	font-size: 36px;
+	justify-content : center;
+}
+
+.descritivo {
+	font-size: 22px;
+}
+
+.centro {
+	font-size: 33px;
+	display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+.tab {
+	overflow: hidden;
+}
+
+.tab button {
+	background-color: #ffffff;
+	padding: 8px 8px;
+	font-size: 22px;
+}
+
+.tab button:hover {
+	background-color: #ddd;
+}
+
+.tab button.active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+	display: none;
+	justify-content: left;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+/* Coisas da lista pessoal */
+
+ul {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 20px;
+}
+
+.textInsert {
+	font-size: 22px;
+	width: 90%;
+}
+
+.bx-plus {
+  font-size: 20px;
+}
+
+.divLi {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.divLi span {
+  width: 80%;
+  color: dimgray;
+}
+
+.divLi input {
+  width: 10%;
+  outline: none;
+  accent-color: currentcolor;
+}
+
+.divLi i {
+  font-size: 22px;
+  color: brown;
+}
+
+li {
+  list-style-type: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DMO - Checklist diária</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+	<div class="to-do">
+		<div class="header">
+			<center><h1> DMO - Checklist Diária </h1></center>
+		</div>
+		<div class="descritivo" style="text-align:center">
+			Uma lista de coisas que todo jogador pode fazer diariamente para aproveitar ao máximo o potencial da sua conta
+		</div>
+
+		<br>
+		<hr>
+		<br>
+
+		<div class="centro"> <center>
+
+			<div class="tab">
+				<button class="tablinks" onclick="openTab(event, 'diarias')" id="defaultOpen">Missões Diárias</button>
+				<button class="tablinks" onclick="openTab(event, 'dg')">Entradas de DG</button>
+				<button class="tablinks" onclick="openTab(event, 'outros')">Outros</button>
+				<button class="tablinks" onclick="openTab(event, 'pessoais')">Pessoais</button>
+			</div>
+
+			<!-- MISSÕES DIARIAS -->
+			<div id="diarias" class="tabcontent">
+				<h3>Missões Diárias</h3>
+				<div class="checks" style="text-align:justify">
+					<input type="checkbox" id="aura" name="aura">
+	     			<label for="scales">Digiaura (Waterfront)</label>
+	     			<br>
+					<input type="checkbox" id="kuwaga" name="kuwaga">
+	     			<label for="scales">Kuwagamon (Waterfront)</label>
+     			</div>
+			</div>
+
+			<!-- ENTRADAS DE DG -->
+			<div id="dg" class="tabcontent">
+				<h3>Entradas de DG</h3>
+				<div class="checks" style="text-align:justify">
+					<input type="checkbox" id="xuwan" name="xuwan">
+	     			<label for="scales">Cristal D'água (EDG, Xuwanwumon)</label>
+	     			<br>
+					<input type="checkbox" id="idg" name="idg">
+	     			<label for="scales">Crack of Devimon (IDG, Devimon)</label>
+	     		</div>
+			</div>
+
+			<!-- OUTROS -->
+			<div id="outros" class="tabcontent">
+				<h3>Outros</h3>
+				<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="colo" name="colo">
+     			<label for="scales">Fazer Coliseu</label>
+     			<br>
+				<input type="checkbox" id="omega" name="omega">
+     			<label for="scales">Omegamon em Versandi</label>
+     			</div>
+			</div>
+
+			<!-- PESSOAIS -->
+			<div id="pessoais" class="tabcontent">
+				<h3>Pessoais</h3>
+				
+				<div class="divInsert">
+			    	<input class="textInsert" type="text" />
+			    	<button><i class='bx bx-plus'></i></button>
+			    </div>
+			    <ul></ul>
+
+			</div>
+
+		</center></div>
+
+	</div>
+
+	<br>
+	<hr>
+	<br>
+
+	<div class="footer">
+		<center>
+			Feito por <a style="color:#11e81b0" href="https://twitter.com/QualquerRafa">@QualquerRafa</a>
+			<br> v 0.1.000 - Dez, 2022
+		</center>
+	</div>
+
+	<div class="changelog" style="margin-left:12px">
+		<justify>
+			<a style="color:#dc6601"> 24/12/2022</a> -  Versão 0.1.000: Site criado.
+		</justify>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
